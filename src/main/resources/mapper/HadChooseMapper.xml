@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wjx.mybatis.mapper.HadChooseMapper">
+  <resultMap id="BaseResultMap" type="com.wjx.mybatis.pojo.HadChoose">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="Course" jdbcType="VARCHAR" property="course" />
+    <result column="Teacher" jdbcType="VARCHAR" property="teacher" />
+    <result column="Student" jdbcType="VARCHAR" property="student" />
+    <result column="IsPass" jdbcType="BIT" property="ispass" />
+    <result column="course_department" jdbcType="VARCHAR" property="courseDepartment" />
+    <result column="course_time" jdbcType="VARCHAR" property="courseTime" />
+    <result column="course_location" jdbcType="VARCHAR" property="courseLocation" />
+  </resultMap>
+</mapper>

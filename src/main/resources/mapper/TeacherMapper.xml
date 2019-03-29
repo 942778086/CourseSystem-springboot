@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wjx.mybatis.mapper.TeacherMapper" >
+  <resultMap id="BaseResultMap" type="com.wjx.mybatis.pojo.Teacher" >
+    <id column="teacher_id" property="teacherId" jdbcType="BIGINT" />
+    <result column="teacher_password" property="teacherPassword" jdbcType="VARCHAR" />
+    <result column="teacher_name" property="teacherName" jdbcType="CHAR" />
+    <result column="teacher_department" property="teacherDepartment" jdbcType="VARCHAR" />
+    <result column="teacher_course" property="teacherCourse" jdbcType="VARCHAR" />
+  </resultMap>
+</mapper>
